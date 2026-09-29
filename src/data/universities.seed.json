@@ -1,0 +1,145 @@
+[
+  {
+    "id": "uni_edinburgh",
+    "university_name": "University of Edinburgh",
+    "country": "United Kingdom",
+    "city": "Edinburgh",
+    "qs_2026": 34,
+    "the_2026": 29,
+    "official_url": "https://www.ed.ac.uk",
+    "partner_status": "Informational Only",
+    "last_verified_date": "2026-09-01"
+  },
+  {
+    "id": "uni_manchester",
+    "university_name": "University of Manchester",
+    "country": "United Kingdom",
+    "city": "Manchester",
+    "qs_2026": 35,
+    "the_2026": 56,
+    "official_url": "https://www.manchester.ac.uk",
+    "partner_status": "Informational Only",
+    "last_verified_date": "2026-09-01"
+  },
+  {
+    "id": "uni_alabama",
+    "university_name": "University of Alabama",
+    "country": "United States",
+    "city": "Tuscaloosa",
+    "qs_2026": null,
+    "the_2026": null,
+    "official_url": "https://www.ua.edu",
+    "partner_status": "Informational Only",
+    "last_verified_date": "2026-09-01"
+  },
+  {
+    "id": "uni_toronto",
+    "university_name": "University of Toronto",
+    "country": "Canada",
+    "city": "Toronto",
+    "qs_2026": 29,
+    "the_2026": 21,
+    "official_url": "https://www.utoronto.ca",
+    "partner_status": "Informational Only",
+    "last_verified_date": "2026-09-01"
+  },
+  {
+    "id": "uni_ubc",
+    "university_name": "University of British Columbia",
+    "country": "Canada",
+    "city": "Vancouver",
+    "qs_2026": 40,
+    "the_2026": 45,
+    "official_url": "https://www.ubc.ca",
+    "partner_status": "Informational Only",
+    "last_verified_date": "2026-09-01"
+  },
+  {
+    "id": "uni_unsw",
+    "university_name": "UNSW Sydney",
+    "country": "Australia",
+    "city": "Sydney",
+    "qs_2026": 20,
+    "the_2026": 79,
+    "official_url": "https://www.unsw.edu.au",
+    "partner_status": "FutureGrad Partner",
+    "last_verified_date": "2026-09-01"
+  },
+  {
+    "id": "uni_monash",
+    "university_name": "Monash University",
+    "country": "Australia",
+    "city": "Melbourne",
+    "qs_2026": 36,
+    "the_2026": 58,
+    "official_url": "https://www.monash.edu",
+    "partner_status": "FutureGrad Partner",
+    "last_verified_date": "2026-09-01"
+  },
+  {
+    "id": "uni_radboud",
+    "university_name": "Radboud University",
+    "country": "Netherlands",
+    "city": "Nijmegen",
+    "qs_2026": 279,
+    "the_2026": 154,
+    "official_url": "https://www.ru.nl/en",
+    "partner_status": "Informational Only",
+    "last_verified_date": "2026-09-01"
+  },
+  {
+    "id": "uni_trinity",
+    "university_name": "Trinity College Dublin",
+    "country": "Ireland",
+    "city": "Dublin",
+    "qs_2026": 75,
+    "the_2026": 173,
+    "official_url": "https://www.tcd.ie",
+    "partner_status": "Informational Only",
+    "last_verified_date": "2026-09-01"
+  },
+  {
+    "id": "uni_auckland",
+    "university_name": "University of Auckland",
+    "country": "New Zealand",
+    "city": "Auckland",
+    "qs_2026": 65,
+    "the_2026": 156,
+    "official_url": "https://www.auckland.ac.nz",
+    "partner_status": "Informational Only",
+    "last_verified_date": "2026-09-01"
+  },
+  {
+    "id": "uni_nus",
+    "university_name": "National University of Singapore",
+    "country": "Singapore",
+    "city": "Singapore",
+    "qs_2026": 8,
+    "the_2026": 17,
+    "official_url": "https://nus.edu.sg",
+    "partner_status": "Informational Only",
+    "last_verified_date": "2026-09-01"
+  },
+  {
+    "id": "uni_kaist",
+    "university_name": "KAIST",
+    "country": "South Korea",
+    "city": "Daejeon",
+    "qs_2026": 53,
+    "the_2026": 70,
+    "official_url": "https://www.kaist.ac.kr/en/",
+    "partner_status": "Informational Only",
+    "last_verified_date": "2026-09-01"
+  },
+  {
+    "id": "uni_tokyo",
+    "university_name": "University of Tokyo",
+    "country": "Japan",
+    "city": "Tokyo",
+    "qs_2026": 36,
+    "the_2026": 26,
+    "official_url": "https://www.u-tokyo.ac.jp/en/",
+    "partner_status": "Informational Only",
+    "last_verified_date": "2026-09-01"
+  }
+]

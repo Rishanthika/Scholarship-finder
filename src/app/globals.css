@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * DESIGN TOKENS — SINGLE SOURCE OF TRUTH
+ * ========================================
+ * This is a TASTEFUL TEMPORARY visual system, not FutureGrad's final
+ * brand — real brand colors/fonts have not been supplied yet. Every
+ * token below is referenced by name throughout the app (via Tailwind's
+ * brand-* / status-* classes in tailwind.config.ts) — nothing is
+ * hardcoded in components. Replacing FutureGrad's real brand later is a
+ * one-file change, right here.
+ *
+ * Palette rationale: deep ink navy (trust, academic gravitas) + warm
+ * amber (achievement, aspiration) + emerald (growth, global) on a cool
+ * paper background — deliberately NOT the warm-cream/terracotta
+ * combination common in generated designs, and not a generic purple
+ * SaaS gradient.
+ */
+:root {
+  --fg-primary: 15 27 61;       /* Ink Navy #0F1B3D — primary actions, headings on light */
+  --fg-primary-light: 32 48 94; /* lighter navy for gradients/hover */
+  --fg-accent: 232 163 61;      /* Amber #E8A33D — achievement accent, badges */
+  --fg-secondary: 31 157 119;   /* Emerald #1F9D77 — growth/secondary, reused for GREEN status */
+  --fg-ink: 18 23 43;           /* body text — warmer than pure black */
+  --fg-muted: 91 100 120;       /* secondary/meta text */
+  --fg-background: 247 248 252; /* cool paper page background */
+  --fg-surface: 255 255 255;    /* card surfaces */
+  --fg-border: 15 27 61;        /* used at low alpha for hairline borders */
+
+  --status-success: 31 157 119;   /* GREEN — Strong Potential Match */
+  --status-success-bg: 232 246 240;
+  --status-warning: 193 127 23;   /* AMBER — Potential Match, Confirmation Required */
+  --status-warning-bg: 253 244 227;
+  --status-error: 179 38 30;      /* reserved — RED is never displayed to students */
+  --status-error-bg: 251 233 231;
+
+  /* Loaded via a <link> tag in layout.tsx (see comment there for why not
+     next/font). Both include a full system-font fallback chain so the
+     page still looks intentional even if the Google Fonts request fails
+     or is blocked. */
+  --font-heading: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+html {
+  background-color: rgb(var(--fg-background));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
